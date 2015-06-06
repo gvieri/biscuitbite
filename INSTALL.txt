@@ -1,0 +1,49 @@
+BISCUIT BITE 
+
+================ Italiano ==========================
+
+Suppongo abbiate gia' scaricato questi files da github :-) 
+
+ora: 
+downloadate bootstrap: https://github.com/twbs/bootstrap/archive/v3.3.4.zip
+installate i js in privacydir/js 
+la directory font in privacydir
+i css in privacydir/css
+
+downloadate bootbx: https://github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js
+installate in privacydir/js
+
+downloadate jquery: http://code.jquery.com/jquery-1.11.3.min.js
+installate in in privacydir/js
+
+Ora customizziamo: cambiate: NOMECOMUNICATODALCLIENTE e INDIRIZZOCOMUNICATODALCLIENTE e i paragrafi riguardanti i cookie di profilazione etc di privacydir/longinfo.html. 
+
+modifichiamo anche privacydir/js/authStyleConf.js. 
+- domain e' il sito
+- longinfo.html e' l'informativa lunga. 
+- nDays e' la validita del cookie che contiene il consenso. Per default e' 30 gg... ovvero l'utente dopo 30 gg deve ridare il consenso. 
+
+Questo e' tutto. 
+
+================ English  ==========================
+
+download  bootstrap: https://github.com/twbs/bootstrap/archive/v3.3.4.zip
+copy all js files  in privacydir/js 
+copy font directory in privacydir
+copy  css files in privacydir/css
+
+download bootbx: https://github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js
+copy it in privacydir/js
+
+download jquery: http://code.jquery.com/jquery-1.11.3.min.js
+copy it in privacydir/js
+
+Customization: modify: NOMECOMUNICATODALCLIENTE e INDIRIZZOCOMUNICATODALCLIENTE  with name and address of the responsible of cookie treatment. After, modify the text regarding the various cookies. You have to modify: privacydir/longinfo.html. 
+
+modify privacydir/js/authStyleConf.js. 
+- domain is the site
+- longinfo.html it is the long text. 
+- nDays it is the cookie duration. 30 days by default. 
+
+That's all. 
+

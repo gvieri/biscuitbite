@@ -1,0 +1,51 @@
+<html>
+
+<head> 
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>autorizzazione all'uso dei cookie/cookies's use authorization form</title>
+
+    <!-- Bootstrap -->
+	<link href="/privacydir/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/privacydir/css/authStyle.css" rel="stylesheet">
+	<script src="/privacydir/js/jquery-1.11.3.min.js"></script>
+	<script src="/privacydir/js/bootstrap.min.js"></script>
+	<script src="/privacydir/js/bootbox.min.js"></script>
+	<script src="/privacydir/js/authStyleConf.js"></script>
+	<script src="/privacydir/js/authStyle.js"></script>
+
+</head>
+
+<body>
+
+<div id="contenuto">
+<br>
+<h1> Per proseguire &egrave; necessario che javascript sia abilitato.</h1>
+<br>
+<h1> To proceed, please enable javascrit on your bowser.</h1>
+<br>
+<div id="js-tutorial">
+<h2> Per abilitare javascript / How to enable javascript</h2>
+<ul>
+<li><a href="https://support.google.com/adsense/answer/12654?hl=it">attivare javascript</a></li>
+<li><a href="http://www.enable-javascript.com/it">abilitare javascript </a></li>
+<li><a href="http://www.enable-javascript.com/en">enabling javascript </a></li>
+</ul>
+</div>
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$('#contenuto').hide();
+	bootbox.dialog(authForm);
+
+});
+</script>
+</body> 
+
+</html> 
+
+
